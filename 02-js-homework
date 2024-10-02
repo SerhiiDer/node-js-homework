@@ -1,0 +1,8 @@
+const isPalindrome = (numb) => {
+    const str = numb.toString();
+    const reversedStr = str.split('').reverse().join('');
+    
+    return str === reversedStr;
+  };
+  
+console.log(isPalyndrome(121))
